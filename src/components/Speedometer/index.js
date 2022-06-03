@@ -32,7 +32,7 @@ class Speedometer extends Component {
         />
         <h1 className="count">Speed is {speed}mph</h1>
         <p className="count1">Min Limit is 0mph, Max Limit is 200mph"</p>
-        <div>
+        <div class="button-container">
           <button className="button" type="button" onClick={this.onIncrement}>
             Accelerate
           </button>
